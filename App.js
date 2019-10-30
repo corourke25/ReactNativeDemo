@@ -8,7 +8,7 @@ const instructions = Platform.select({
 
 export default class App extends Component {
   render() {
-    let pic = {uri: 'https://upload.wikimedia.org/wikipedia/common/d/de/Bananavarieties.jpg'};
+    let pic = {uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'};
     return (
       <Image source={pic} style={{width: 193, height: 110}}/>
     );
