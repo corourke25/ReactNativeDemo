@@ -18,7 +18,7 @@ class Blink extends Component {
       }
 
       return (
-        <Text>{this.props.text}</text>
+        <Text>{this.props.text}</Text>
       );
     }
   }
