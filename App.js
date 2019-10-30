@@ -8,8 +8,10 @@ const instructions = Platform.select({
 
 export default class App extends Component {
   render() {
+    let pic = {uri: 'https://upload.wikimedia.org/wikipedia/common/d/de/Bananavarieties.jpg'};
     return (
       <View style={{flex: 1, justifyContent:"center", alignItems:"center"}}>
+        <Image source={pic} style={{width: 193, height: 110}}/>
         <Text>Hello, World!</Text>
       </View>
     );
